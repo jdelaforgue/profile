@@ -1,0 +1,329 @@
+/************************************** 
+              Whole Site 
+**************************************/
+*{
+	box-sizing: border-box;
+}
+
+
+html, body {
+  background-color: black;
+  overflow-x:hidden
+}
+
+
+/************************************** 
+		GOOGLE FONT STYLES
+
+font-family: 'Poppins', sans-serif;
+
+font-family: 'Roboto Mono', monospace;
+
+font-family: 'Nunito', sans-serif;
+
+font-family: 'Turret Road', cursive;
+**************************************/
+
+
+
+/************************************** 
+              Navigation 
+**************************************/
+
+.top-nav-collapse {
+  background-color: black;
+}
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: black;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: black;
+  }
+}
+
+#nav {
+	font-family: 'Anton', sans-serif;
+	font-weight: 900;
+}
+
+/************************************** 
+              Intro Section 
+**************************************/
+
+#intro{
+	height: 100vh;
+	color: white;
+	background-color: black;
+	padding-top: 100px;
+	padding-bottom: 10px;
+}
+
+#intro div h4{
+	font-family: 'Anton', sans-serif;
+	font-weight: 900;
+	font-size: .8em;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+}
+
+.menuHeight1 {
+	max-height: 20%;
+}
+
+
+.menuHeight2 {
+	max-height: 20%;
+}
+
+.menuHeight4 {
+	max-height: 20%;
+}
+
+.menuHeight3 {
+	max-height: 20%;
+	text-align: center;
+}
+
+.menuHeight5 {
+	max-height: 10%;
+}
+
+#logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%
+}
+
+#intro p {
+transform: rotate(-90deg);
+font-size: 1em;
+font-family: 'Anton', sans-serif;
+font-weight: 900;
+}
+
+#nineOne {
+	float: left;
+	padding-bottom: 5.5em;
+	padding-right: 2em;
+}
+
+#nineteen {
+	float: right;
+	padding: 1em;
+}
+
+.thinText {
+    font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+}
+
+
+
+
+#introGif {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	max-width: 100%;
+	margin-top: 0;
+}
+
+#introGif2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	max-width: 100%;
+	margin-top: 0;
+}
+
+#menu {
+	padding:5px 0;
+	background-image: url("../img/wood-min.jpg");
+  	background-repeat: no-repeat;
+	background-position: center; 
+    background-size: cover;
+}
+
+.hoverObject {
+    display: none;
+}
+
+#menu a{
+	text-decoration: none;
+	color: black;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+#menu img {
+	width: 100%;
+}
+
+.menuText {
+	font-family: 'Anton', sans-serif;
+	font-weight: 900;
+	text-align: center;
+	display: table;
+	margin: auto;
+}
+
+.parallaxSection1 .parallaxSection2 .parallaxSection3{
+	height: 100vh;
+}
+
+.parallaxSection1 {
+	background: rgb(240,241,242);
+	background: linear-gradient(0deg, rgba(240,241,242,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.parallaxSection2 {
+	background: rgb(0,0,0);
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(240,241,242,1) 100%);
+}
+
+.parallaxSection3 {
+	background: rgb(245,245,245);
+	background: linear-gradient(0deg, rgba(245,245,245,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.blankSpace {
+	height: 30vh;
+	background-color: black;
+}
+
+.blankSpace2 {
+	height: 30vh;
+	background-color: #f0f1f2;
+}
+
+.blankSpace3 {
+	height: 30vh;
+	background-color: #f5f5f5;
+}
+
+/********************************************** 
+ Main Content (Websites, Music, About, Contact)
+**********************************************/
+
+#websites, #music, #about, #contact {
+}
+
+/* Websites */
+
+#websites {	
+  background-color: #f0f1f2;
+}
+
+#websites a {
+	text-decoration: none;
+}
+
+#websites h6, p {
+  text-align: center;
+}
+
+#websites h6 {
+	font-size: 2em;
+}
+
+.siteTitle {
+	text-decoration: none;
+	color: black;
+}
+
+.siteTitle:hover {
+	color: gray;
+	text-decoration: none;
+}
+
+#websites p {
+  font-size: small;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.containerForWebsite:hover .image {
+  opacity: 0.3;
+}
+
+.containerForWebsite:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: rgb(2, 3, 3);
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.containerForWebsite img {
+	width: 75%;
+	margin: auto;
+	border: ;
+}
+
+.containerForWebsite img:hover {
+	width: 95%;
+	margin: auto;
+	border: ;
+}
+/* Music */
+
+#music {
+  background-color: black;
+}
+
+#music h1 {
+  color:white;
+}
+
+
+/* About Me */
+
+#about {
+	background-color: #f5f5f5;
+}
+
+/* Contact */
+
+/* Footer */
+
+
+
+/* LARGER SCREENS */
+
+@media only screen and (min-width: 600px) {
+	
+#menu a{
+		text-decoration: none;
+		color: black;
+		font-size: 200%;
+		font-weight: bold;
+	}
+}
+
